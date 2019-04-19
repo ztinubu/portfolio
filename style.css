@@ -1,0 +1,122 @@
+html{
+	overflow-y: scroll;
+	
+}
+body
+	{font-family:'Archivo Narrow', sans-serif;}
+
+title{
+	font-family:'Archivo Narrow', sans-serif;
+	margin: auto;
+}
+h1{
+	float: right;
+}
+header h1:first-child{
+
+}
+nav{
+	list-style: none;
+}
+nav:hover{
+	opacity: 0.5;
+}
+a {
+	text-decoration: none;
+
+	color: black;
+}
+ul {
+	list-style: none;
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
+}
+
+ul:link {
+	color: #ff9999;
+}
+li:hover {
+	color: #ff9999;
+}
+
+.worksections {
+	text-align: justify;
+	width: 300px;
+	margin: auto;
+}
+.worksections:hover{
+	padding: .5em;
+	z-index: 2;
+	font-size: 30pt;
+	width: 50%
+}
+img:hover {
+	/*opacity: 0.5;*/
+}
+img{
+	margin: auto;
+}
+
+.experiencesections {
+	text-align: justify;
+	width: 300px;
+	position: fixed;
+	left: 300px;
+	top: 3px;
+	margin: auto;
+	padding: 4em;
+}
+.experiencesections:hover{
+	opacity: .75;
+	background-color: #efff77;	
+}
+#hometitle{
+	font-size: 150pt;
+	text-align: justify;
+	position: fixed;
+    top: 50%;
+    width: 100%;
+    background-color: #ccff00;
+    height: 30px;
+    opacity: 0.6;
+}
+#homedescription{
+	text-align: justify;
+	position: fixed;
+	top: 330px;
+	left: 1200px;
+	width: 300px;
+	overflow-x: 1000px;
+	font-size: 18pt;
+}
+#homebox {
+  background-color: yellow;
+  padding: 10px;
+  border: none;
+  left: 1500px;
+  opacity: 0.75;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+}
+.otherboxes {
+  background-color: yellow;
+  padding: 3px;
+  border: none;
+  left: 1000px;
+  opacity: 0.25;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+}
+.otherboxes:hover {
+opacity: 0.25;
+}
+#comingsoontext {
+	text-decoration-style: wavy;
+	margin: auto;
+}
+#photosections{
+	background-color: black;
+}
